@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Jane Doe</h1>
+            <p><img src="profile-icon.png" alt="Profile Icon"> jdoe@email.com</p>
+            <p><img src="phone-icon.png" alt="Phone Icon"> +1234567890</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <img src="profile.jpg" alt="Profile Image" class="profile-image">
+            <h2>Hi, I'm Jane Doe! <span>👋</span></h2>
+            <p>I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="html-logo.png" alt="HTML Logo">
+                    <p>HTML</p>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="javascript-logo.png" alt="JavaScript Logo">
+                    <p>JavaScript</p>
+                    <p>1.5 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="java-logo.png" alt="Java Logo">
+                    <p>Java</p>
+                    <p>.5 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="react-logo.png" alt="React Logo">
+                    <p>React</p>
+                    <p>1 year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="nodejs-logo.png" alt="Node.js Logo">
+                    <p>Node.js</p>
+                    <p>1 year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="css-logo.png" alt="CSS Logo">
+                    <p>CSS</p>
+                    <p>2 years experience</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Chatbot</h3>
+                <p>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript, and IBM Watson Assistant.</p>
+            </div>
+            <div class="project">
+                <h3>Sentiment Analyzer</h3>
+                <p>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</p>
+            </div>
+            <div class="project">
+                <h3>Fashion Website</h3>
+                <p>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using Stripe for payment gateway.</p>
+            </div>
+        </section>
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div id="recommendation-list">
+                <div class="recommendation">
+                    <p>“Jane is a very quick learner and quickly grasps key concepts of Web development. She got a great attitude & she is an excellent team player. She has a curious mind and asks the right questions. She takes initiative within a team and has potentials to lead the team.”</p>
+                </div>
+                <div class="recommendation">
+                    <p>“Working with Jane has been an awesome experience. She is highly knowledgable and always goes the extra step to make sure everything is right. For any future projects that need her expertise I would definitely want to work with her again.”</p>
+                </div>
+                <div class="recommendation">
+                    <p>“I had worked along with Jane during the initial phase of our venture which needed Web development. She is a committed resource who has in depth knowledge about the domain. She will be an asset for any organisation!”</p>
+                </div>
+            </div>
+            <form id="recommendation-form">
+                <h3>Leave a Recommendation</h3>
+                <input type="text" id="name" placeholder="Name (Optional)">
+                <textarea id="message" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="#"><img src="home-icon.png" alt="Home Icon" class="home-icon"></a>
+    </footer>
+    <script src="k.js"></script>
+</body>
+</html>
